@@ -1,0 +1,58 @@
+.digit{
+    cursor: pointer;
+    display: flex;
+    font-size: 30px;
+height:  60px;
+width: 60px;
+background-color: gray;
+border-radius: 100%;
+margin: 3px;
+justify-content: center;
+align-items: center;
+}
+
+.digit:active{
+    background-color: #2F4F4F;
+}
+
+.line{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.eq{
+    cursor: pointer;
+    display: flex;
+    font-size: 30px;
+height:  60px;
+width: 125px;
+background-color: orange;
+border-radius: 40px;
+margin: 3px;
+justify-content: center;
+align-items: center;
+}
+
+.Input{
+    width: 240px;
+    border-radius: 10px;
+    height: 25px;
+    margin: 5px;
+}
+.eq:active{
+    background-color: #ca9e0d;
+}
+.erase{
+    cursor: pointer;
+    display: flex;
+    font-size: 30px;
+height:  60px;
+width: 65px;
+background-color: #2ded60;
+border-radius: 45px;
+margin: 3px;
+justify-content: center;
+align-items: center;
+}
